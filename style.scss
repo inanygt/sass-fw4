@@ -1,5 +1,52 @@
-$background-color: red;
+// (Montserrat, Yrsa en Inter)
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap"); // font-family: 'Montserrat', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Yrsa&display=swap"); // font-family: 'Yrsa', serif;
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap"); // font-family: 'Inter', sans-serif;
+
+$main-color: #212121;
+
+.container {
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 2rem;
+}
 
 body {
-   background: $background-color;
+   // background: $background-color;
+   width: 100%;
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-family: "Montserrat", sans-serif;
+   font-size: 13px;
+   letter-spacing: 1.25;
+   color: $main-color;
+}
+
+.nav-item-left {
+   margin-right: 1.5rem;
+}
+
+.nav-item-right {
+   margin-left: 1.5rem;
+}
+
+.nav-left {
+   display: flex;
+}
+
+.nav-right {
+   display: flex;
+}
+
+.nav-link {
+   text-decoration: none;
+   color: black;
+}
+
+.logo {
+   width: 50px;
 }
