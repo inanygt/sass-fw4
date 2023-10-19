@@ -3,12 +3,9 @@
 
 .nav {
    @include uppercase;
+   @include flex-space-center;
 
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   text-transform: uppercase;
-   margin-bottom: 10rem;
+   margin-bottom: 8rem;
    margin-top: 6rem;
    .nav-left {
       display: flex;
@@ -24,10 +21,10 @@
    }
    .nav-link {
       text-decoration: none;
-      color: black;
+      color: $black;
    }
 
    .logo {
-      width: 50px;
+      width: 72px;
    }
 }

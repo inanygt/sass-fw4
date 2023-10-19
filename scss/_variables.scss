@@ -2,8 +2,8 @@ $black: #212121;
 $grey: #e8edef;
 $orange: #f25130;
 
-// $theme-colors: (
-//    "background": $grey,
-//    "main": $black,
-//    "accent": $orange,
-// );
+@mixin flex-space-center {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
