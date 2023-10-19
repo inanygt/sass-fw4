@@ -3,24 +3,31 @@ body {
 }
 
 .container {
-   width: 75%;
+   width: 1440px - 2 * 122;
    margin: 0 auto;
-   height: 100vh;
+   // height: 100vh;
 }
 
 .front-page {
-   width: 33%;
+   // width: 33%;
+}
+
+.front-page-left {
+   width: 1440px - 117px - 768px;
+}
+.front-page-right {
+   width: 50%;
 }
 
 .body-left {
-   float: right;
-   margin-top: 5rem;
+   margin-top: 75px;
+   margin-left: 104.24px;
 }
 
 .architecture-img {
    // width: 709.5px;
-   width: 45%;
    // height: 473px;
+   width: 50%;
    position: absolute;
    right: 0;
    top: 380px;
