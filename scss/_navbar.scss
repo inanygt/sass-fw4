@@ -1,13 +1,12 @@
 @import "/scss/variables";
+@import "/scss/typography";
 
 .nav {
-   color: $black;
+   @include uppercase;
+
    display: flex;
    justify-content: space-between;
    align-items: center;
-   font-family: "Montserrat", sans-serif;
-   font-size: 13px;
-   letter-spacing: 1.25px;
    text-transform: uppercase;
    margin-bottom: 10rem;
    margin-top: 6rem;

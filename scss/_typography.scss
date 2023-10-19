@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+// font-family: 'Montserrat', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+// font-family: 'Inter', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Yrsa:ital,wght@1,300;1,400&display=swap");
+// font-family: 'Yrsa', serif;
+
+@mixin uppercase {
+   font-family: "Montserrat", sans-serif;
+   font-size: 13px;
+   letter-spacing: 1.25px;
+   text-transform: uppercase;
+   color: $black;
+}
+
+.title {
+   font-family: "Yrsa", serif;
+   font-weight: 100;
+   font-size: 75px;
+   letter-spacing: -1.2px;
+   line-height: 74px;
+}
+
+.sub-title {
+   margin-top: 1rem;
+   @include uppercase;
+}
+
+.body-front-page {
+   font-family: "Inter", sans-serif;
+   font-size: 14px;
+   color: $black;
+   line-height: 28px;
+   width: 386px;
+   letter-spacing: 0.11px;
+   opacity: 75%;
+}
+
+.arrow {
+   color: black;
+   padding: 0 1rem;
+}
