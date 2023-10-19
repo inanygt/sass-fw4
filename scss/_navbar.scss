@@ -1,0 +1,34 @@
+@import "/scss/variables";
+
+.nav {
+   color: $black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-family: "Montserrat", sans-serif;
+   font-size: 13px;
+   letter-spacing: 1.25px;
+   text-transform: uppercase;
+   margin-bottom: 10rem;
+   margin-top: 6rem;
+   .nav-left {
+      display: flex;
+   }
+   .nav-right {
+      display: flex;
+   }
+   .nav-item-left {
+      margin-right: 2.5rem;
+   }
+   .nav-item-right {
+      margin-left: 2.5rem;
+   }
+   .nav-link {
+      text-decoration: none;
+      color: black;
+   }
+
+   .logo {
+      width: 50px;
+   }
+}

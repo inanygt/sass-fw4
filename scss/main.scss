@@ -1,11 +1,12 @@
-// (Montserrat, Yrsa en Inter)
+@import "./scss/navbar";
+@import "./scss/layout";
+@import "./scss/typography";
+@import "./scss/buttons";
+@import "./variables";
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap"); // font-family: 'Montserrat', sans-serif;
 @import url("https://fonts.googleapis.com/css2?family=Yrsa:ital@1&display=swap"); // font-family: 'Yrsa', serif;
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap"); // font-family: 'Inter', sans-serif;
-
-$main-color: #212121;
-$background-color: #e8edef;
-$accent-color: #f25130;
 
 .container {
    width: 75%;
@@ -14,47 +15,8 @@ $accent-color: #f25130;
 }
 
 body {
-   // background: $background-color;
    width: 100%;
-   background-color: $background-color;
-}
-
-.nav {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   font-family: "Montserrat", sans-serif;
-   font-size: 13px;
-   letter-spacing: 1.25px;
-   color: $main-color;
-   text-transform: uppercase;
-   margin-bottom: 10rem;
-   margin-top: 6rem;
-}
-
-.nav-item-left {
-   margin-right: 2.5rem;
-}
-
-.nav-item-right {
-   margin-left: 2.5rem;
-}
-
-.nav-left {
-   display: flex;
-}
-
-.nav-right {
-   display: flex;
-}
-
-.nav-link {
-   text-decoration: none;
-   color: black;
-}
-
-.logo {
-   width: 50px;
+   background-color: $grey;
 }
 
 // intro page
@@ -75,7 +37,7 @@ body {
    font-size: 13px;
    letter-spacing: 1.25px;
    text-transform: uppercase;
-   color: $main-color;
+   color: $black;
    margin-top: 1rem;
 }
 
@@ -87,22 +49,10 @@ body {
 .body-front-page {
    font-family: "Inter", sans-serif;
    font-size: 14px;
-   color: $main-color;
+   color: $black;
    line-height: 28px;
    width: 386px;
    letter-spacing: 0.11px;
-}
-
-.contact-btn {
-   background-color: $accent-color;
-   padding: 20px 0px 20px 20px;
-   color: white;
-   border: none;
-   margin-top: 5rem;
-   font-family: "Montserrat", sans-serif;
-   font-size: 11px;
-   letter-spacing: 0.85px;
-   text-transform: uppercase;
 }
 
 .arrow {
