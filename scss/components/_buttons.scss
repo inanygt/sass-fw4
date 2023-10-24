@@ -1,0 +1,29 @@
+@import "../variables";
+
+@mixin button() {
+   padding: $base-padding $base-padding * 2;
+   display: inline-block;
+   border: none;
+   cursor: pointer;
+}
+
+.btn {
+   @include button;
+}
+
+.btn-contact {
+   font-size: 11px;
+   font-family: "Montserrat", sans-serif;
+   letter-spacing: 0.85px;
+   text-transform: uppercase;
+}
+
+@each $key, $val in $colors {
+   .btn-#{$key} {
+      @include button();
+      background-color: $val;
+      &:hover {
+         background-color: lighten($val, 5);
+      }
+   }
+}

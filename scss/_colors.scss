@@ -1,0 +1,20 @@
+// Theme colors
+$primary: #212121;
+$secondary: #e8edef;
+$accent: #f25130;
+
+$colors: (
+   "primary": $primary,
+   "secondary": $secondary,
+   "accent": $accent,
+   "white": white,
+);
+
+@each $key, $val in $colors {
+   .text-#{$key} {
+      color: $val;
+   }
+   .bg-#{$key} {
+      background-color: $val;
+   }
+}

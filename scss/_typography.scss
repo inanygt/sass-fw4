@@ -21,17 +21,14 @@
    line-height: 74px;
 }
 
-.sub-title {
-   margin-top: 36px;
+.subtitle {
    @include uppercase;
 }
 
-.body-front-page {
+.body-text {
    font-family: "Inter", sans-serif;
    font-size: 14px;
-   color: $black;
    line-height: 28px;
-   width: 386px;
    letter-spacing: 0.11px;
    opacity: 75%;
 }
@@ -39,4 +36,8 @@
 .arrow {
    color: black;
    padding: 0 1rem;
+}
+
+.text-container {
+   max-width: 400px;
 }

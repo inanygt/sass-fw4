@@ -1,5 +1,5 @@
-@import "/scss/variables";
-@import "/scss/typography";
+@import "../variables";
+@import "../typography";
 
 .nav {
    @include uppercase;

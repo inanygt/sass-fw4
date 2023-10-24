@@ -7,3 +7,15 @@ $orange: #f25130;
    justify-content: space-between;
    align-items: center;
 }
+
+// spacing
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+// font sizes
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
+$font-size-xxxl: $base-font-size * 6;

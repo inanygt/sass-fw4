@@ -1,5 +1,9 @@
-@import "./scss/navbar";
-@import "./scss/layout";
-@import "./scss/typography";
-@import "./scss/buttons";
 @import "./variables";
+@import "./colors";
+@import "./scss/components/navbar";
+@import "./scss/base";
+@import "./scss/typography";
+@import "./scss/components/buttons";
+@import "./breakpoints";
+@import "./utilities.scss";
+@import "./grid";
